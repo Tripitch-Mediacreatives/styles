@@ -1,9 +1,48 @@
+/* Main structure */
+
 body {
-	margin: 0px;
+  min-width: 620px;      /* 2x NAV width + CLOCK width */
+  margin: 0px;
 }
 header {
 	height: 110px;
 }
+.wrapper {
+  padding-left: 215px;   /* NAV width */
+  padding-right: 390px;  /* CLOCK width */
+}
+.wrapper .column {
+  position: relative;
+  float: left;
+}
+#center {
+  width: 100%;
+}
+#left {
+	width: 55%;
+}
+#right {
+	width: 45%;
+}
+
+#nav {
+  width: 215px;          /* NAV width */
+  right: 215px;          /* NAV width */
+  margin-left: -100%;
+}
+#clock {
+  width: 390px;          /* CLOCK width */
+  margin-right: -390px;  /* CLOCK width */
+}
+footer {
+  clear: both;
+}
+/*** IE6 Fix ***/
+* html #left {
+  left: 390px;           /* CLOCK width */
+}
+/********* end of main structure **************/
+
 div.logo {
 	width: 220px;
 	float:left;
@@ -34,50 +73,26 @@ div.profile ul li {
 	float: left;
 	margin-right: 5px;
 }
-
-
-
-/* version 2 */
-
-body {
-  min-width: 620px;      /* 2x NAV width + CLOCK width */
+section#credits {
+	margin: 60px 0 30px 30px;
 }
-.wrapper {
-  padding-left: 215px;   /* NAV width */
-  padding-right: 390px;  /* CLOCK width */
+section#menu nav ul {
+	padding:0 0 20px;
 }
-.wrapper .column {
-  position: relative;
-  float: left;
+section#menu li {
+	height: 50px;
+	list-style-type: none;
 }
-#center {
-  width: 100%;
+section#menu li a {
+	width: 184px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	height: 50px;
+	text-align: left;
+	padding: 0 0 0 30px;
 }
-#left {
-	width: 55%;
-	background-color: #fff;
+section.content-item {
+	padding: 30px;
 }
-#right {
-	width: 45%;
-	background-color: #006699;
-}
-
-#nav {
-  width: 215px;          /* NAV width */
-  right: 215px;          /* NAV width */
-  margin-left: -100%;
-  background-color: green;
-}
-#clock {
-  width: 390px;          /* CLOCK width */
-  margin-right: -390px;  /* CLOCK width */
-  background-color: blue;
-}
-footer {
-  clear: both;
-}
-/*** IE6 Fix ***/
-* html #left {
-  left: 390px;           /* CLOCK width */
-}
-

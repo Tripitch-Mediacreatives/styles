@@ -1,5 +1,12 @@
+@font-face{
+font-family:"bam Sans";
+src:url("/fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix");
+src:url("/fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix") format("eot"),url("/fonts/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff"),url("/fonts/1d146b29-55e2-485b-96aa-5cb628e7e9eb.ttf") format("truetype"),url("/fonts/d90b3358-e1e2-4abb-ba96-356983a54c22.svg#d90b3358-e1e2-4abb-ba96-356983a54c22") format("svg");
+}
+
 body {
 	font-family: helvetica;
+	font-size: 13px;
 }
 div.profile ul li {
 	font-size: 14px;
@@ -9,4 +16,31 @@ div.profile ul li a{
 }
 section.main .left h1, section.main .right h1 {
 	text-transform: uppercase;
+}
+section#credits {
+	font-size: 17px;
+	font-weight: bold;
+}
+section#menu li a{
+	font-size: 13px;
+}
+
+h1 {
+	font-size: 22px;
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 15px;
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+p.small {
+	font-size: 13px;
+	margin: 5px 0;
+}
+input[type=submit]{
+	height: 40px;
+	padding: 0 20px;
+	display: block;
 }

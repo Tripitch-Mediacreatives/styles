@@ -1,12 +1,52 @@
 /* color */
 body {
 	background-color: #0a0605;
+	color: #515151;
 }
 header {
 	color: #ffffff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 header a {
 	color: #ffffff;
 }
 
+section#credits {
+	color: #fff;
+}
+
+.white {
+	background-color: #fff;
+}
+.grey{
+	background-color: #eaeaea;
+}
+section#menu li {
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+section#menu li:last-child{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+section#menu li.active a{
+	background-color: #a65024;
+}
+
+
+section#menu li a{
+	color: #fff;
+}
+section#menu li a:hover{
+	background-color: #a65024;
+}
+section.content-item {
+	border-top: 1px solid #d1d1d1;
+}
+section#menu li:first-child{
+	border: none;
+}
+input[type=submit]{
+	background-color: #a65024;
+	border: none;
+	color: #fff;
+}
 /* logo */

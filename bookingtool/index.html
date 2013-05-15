@@ -34,31 +34,51 @@
         </header>
 		<div class="wrapper">
 	  		<div id="center" class="column">
-	  			<div id="left" class="column">
-	  				<h1>Aankomende boekingen</h1>
-	  		        		<small>Bekijk uw boekingen voor de komene 3 data</small>
+	  			<div id="left" class="column grey">
+	  				<section class="content-item">
+	  					<h1>Nieuwe boeking</h1>
+	  		        	<p class="small">Vul onderstaand formulier in om nieuwe booking aan te maken</p>
+	  		    	</section>
+	  		    	<form action="#" method="POST">
+	  		    	<section class="content-item">
+	  		    		<h2>Samenvatting</h2>
+	  		    		<p class="small">U hebt 2 medewerkers geboekt voor 14-04-2013. Deze booking vereist 2 credits van uw tegoed. Voor akkoord bevestigd u de booking. Indien u nog een wijziging wilt doorvoeren knt u dit nu  nog doen.<p>
+	  		    	</section>
+	  		    	<section class="content-item">
+	  		    		<input type="submit" value="Booking Bevestigen" style="float:right;" />
+	  		    		<div style="clear: both;" />
+	  		    	</section>
+	  		    	</form>
 	  			</div>
-	  			<div id="right" class="column">
-	  				<h1>Nieuws & Updates</h1>
-	  		        		<small>Bekijk uw boekingen voor de komene 3 data</small>
+	  			<div id="right" class="column white">
+	  				<section class="content-item">
+	  					<h1>Planning & Booking</h1>
+	  		        	<p class="small">Uw boekingsoverzicht voor de komende maanden</p>
+	  		    	</section>
+
 	  			</div>	
 	  		</div>
 	  		<div id="nav" class="column">
+	  			<section id="credits">
+	  				1234 Credits
+	  			</section>
+	  			<section id="menu">
 	  			<nav>
 	                    <ul>
 	                    	<li><a href="dashboard.html">Dashboard</a></li>
-	                    	<li><a href="#">Planning & Booking</a></li>
+	                    	<li class="active"><a href="#">Planning & Booking</a></li>
 	                    	<li><a href="#">Agents</a></li>
 	                    	<li><a href="#">Reports</a></li>
 	                   </ul>
 	                </nav>
+	            <section>
 	  		</div>
 	  		<div id="clock" class="column">
-	  			clock
+	  			<!-- clock goes here -->
 	  		</div>
 	  	</div>
 	  	<footer><!-- we don't use footers --></footer>
-	  	
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
