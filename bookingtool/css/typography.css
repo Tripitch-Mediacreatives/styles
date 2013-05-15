@@ -43,4 +43,29 @@ input[type=submit]{
 	height: 40px;
 	padding: 0 20px;
 	display: block;
+	cursor: pointer;
+}
+input[type=text], input[type=date]{
+	height: 40px;
+	padding: 0 10px;
+	width: 200px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 2;
+	-webkit-appearance: none;
+}
+select {
+	overflow: hidden;
+   	background: #fff;
+   	border: 1px solid #ccc;
+   	height: 40px;
+   	padding: 0 10px;
+   	font-size: 16px;
+   -webkit-appearance: none;
+}
+input[type=text].normal, input[type=date].normal, select.normal{
+	width: 250px;
+}
+input[type=text].small, input[type=date].small, select.small{
+	width: 80px;
 }

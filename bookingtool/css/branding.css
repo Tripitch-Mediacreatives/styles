@@ -1,6 +1,5 @@
 /* color */
 body {
-	background-color: #0a0605;
 	color: #515151;
 }
 header {
@@ -40,9 +39,6 @@ section#menu li a:hover{
 }
 section.content-item {
 	border-top: 1px solid #d1d1d1;
-}
-section#menu li:first-child{
-	border: none;
 }
 input[type=submit]{
 	background-color: #a65024;

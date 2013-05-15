@@ -3,6 +3,7 @@
 @import url("typography.css");
 @import url("branding.css");
 
-body {
-	background: url('../images/background.jpg') no-repeat;
+html {
+	background: url('../images/background.jpg') no-repeat left top;
+	background-size: 100%;
 }

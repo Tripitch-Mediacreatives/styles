@@ -38,8 +38,35 @@
 	  				<section class="content-item">
 	  					<h1>Nieuwe boeking</h1>
 	  		        	<p class="small">Vul onderstaand formulier in om nieuwe booking aan te maken</p>
+	  		    		<form action="#" method="POST">
+	  		    			<table style="width: 100%;">
+	  		    				<tr>
+	  		    					<td><label>Datum:</label></td><td class="align-right"><input type="date" class="normal" name="tb_date" id="tb_date" /></td>
+	  		    				<tr>
+	  		    					<tr>
+	  		    					<td><label>Werktijden:</label></td><td class="align-right">
+	  		    						<input type="text" class="small" name="tb_werktijd_from" id="tb_werktijd_from" /> - 
+	  		    						<input type="text" class="small" name="tb_werktijd_till" id="tb_werktijd_till" />
+	  		    					</td>
+	  		    				<tr>
+	  		    					<tr>
+	  		    					<td><label>Aantal medewerkers:</label></td><td class="align-right"><input type="text" class="normal" name="tb_agent_count" id="tb_agent_count" /></td>
+
+	  		    				<tr>
+	  		    				<tr>
+	  		    					<td><label>Voorkeur medewerkers:</label></td><td class="align-right">
+	  		    						<select class="normal" name="tb_agent_prefferences_01" id="tb_agent_prefferences_01">
+	  		    							<option>Selecteer medewerker</option>
+	  		    						</select><br/>
+	  		    						<select class="normal" name="tb_agent_prefferences_02" id="tb_agent_prefferences_02">
+	  		    							<option>Selecteer medewerker</option>
+	  		    						</select>
+	  		    					</td>
+	  		    				</tr>
+	  		    			</table>
+
 	  		    	</section>
-	  		    	<form action="#" method="POST">
+	  		    	
 	  		    	<section class="content-item">
 	  		    		<h2>Samenvatting</h2>
 	  		    		<p class="small">U hebt 2 medewerkers geboekt voor 14-04-2013. Deze booking vereist 2 credits van uw tegoed. Voor akkoord bevestigd u de booking. Indien u nog een wijziging wilt doorvoeren knt u dit nu  nog doen.<p>
