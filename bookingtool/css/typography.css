@@ -7,3 +7,6 @@ div.profile ul li {
 div.profile ul li a{
 	text-decoration: none;
 }
+section.main .left h1, section.main .right h1 {
+	text-transform: uppercase;
+}

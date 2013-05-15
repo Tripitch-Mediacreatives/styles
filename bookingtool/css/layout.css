@@ -34,3 +34,50 @@ div.profile ul li {
 	float: left;
 	margin-right: 5px;
 }
+
+
+
+/* version 2 */
+
+body {
+  min-width: 620px;      /* 2x NAV width + CLOCK width */
+}
+.wrapper {
+  padding-left: 215px;   /* NAV width */
+  padding-right: 390px;  /* CLOCK width */
+}
+.wrapper .column {
+  position: relative;
+  float: left;
+}
+#center {
+  width: 100%;
+}
+#left {
+	width: 55%;
+	background-color: #fff;
+}
+#right {
+	width: 45%;
+	background-color: #006699;
+}
+
+#nav {
+  width: 215px;          /* NAV width */
+  right: 215px;          /* NAV width */
+  margin-left: -100%;
+  background-color: green;
+}
+#clock {
+  width: 390px;          /* CLOCK width */
+  margin-right: -390px;  /* CLOCK width */
+  background-color: blue;
+}
+footer {
+  clear: both;
+}
+/*** IE6 Fix ***/
+* html #left {
+  left: 390px;           /* CLOCK width */
+}
+

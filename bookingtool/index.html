@@ -17,10 +17,8 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <!-- Add your site or application content here -->
-        <div class="wrapper">
-        	<header>
-        		<div class="logo">
+        <header>
+       		<div class="logo">
         			<a href="/dashboard"><img src="images/logo.png"/></a>
 				</div>
         		<div class="punchline">
@@ -33,26 +31,34 @@
         				<li><a href="#">FAQ</a></li>
         			</ul>
         		</div>
-        	</header>
-        	<section class="content">
-			    <nav>
-                    <ul>
-                    	<li><a href="dashboard.html">Dashboard</a></li>
-                    	<li><a href="#">Planning & Booking</a></li>
-                    	<li><a href="#">Agents</a></li>
-                    	<li><a href="#">Reports</a></li>
-                   </ul>
-                </nav>
-  		        <section class="main">
-				    
-			    </section>
- 			    <aside>
-                     <!-- clock -->
- 			    </aside>
-		    </section>
-		    <footer><!-- not used in this application --></footer>
-        </div>
-
+        </header>
+		<div class="wrapper">
+	  		<div id="center" class="column">
+	  			<div id="left" class="column">
+	  				<h1>Aankomende boekingen</h1>
+	  		        		<small>Bekijk uw boekingen voor de komene 3 data</small>
+	  			</div>
+	  			<div id="right" class="column">
+	  				<h1>Nieuws & Updates</h1>
+	  		        		<small>Bekijk uw boekingen voor de komene 3 data</small>
+	  			</div>	
+	  		</div>
+	  		<div id="nav" class="column">
+	  			<nav>
+	                    <ul>
+	                    	<li><a href="dashboard.html">Dashboard</a></li>
+	                    	<li><a href="#">Planning & Booking</a></li>
+	                    	<li><a href="#">Agents</a></li>
+	                    	<li><a href="#">Reports</a></li>
+	                   </ul>
+	                </nav>
+	  		</div>
+	  		<div id="clock" class="column">
+	  			clock
+	  		</div>
+	  	</div>
+	  	<footer><!-- we don't use footers --></footer>
+	  	
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
